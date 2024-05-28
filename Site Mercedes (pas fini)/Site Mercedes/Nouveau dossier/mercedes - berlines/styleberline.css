@@ -1,0 +1,334 @@
+.back
+{
+    width:auto;
+    height: auto;
+    background-image : url("https://cdn.motor1.com/images/mgl/jpbbN/s3/2021-mercedes-benz-s-class-exterior.jpg"); opacity : 100%;
+    
+}
+
+
+.titre
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+    background-image:url(https://mocah.org/mocahbig/447944-Forza-Horizon-4-mercedes-amg-gt-63s-landscape-PlaygroundGames.png);
+    width : 100%;
+}
+
+.button {
+  
+  text-align : center;
+  margin-left: 0px;
+  margin-top : 0px;
+  background-color: black; 
+  color: white; 
+  border: 2px solid white;
+  padding : 10px;
+  width : 100px;
+  border-radius : 2px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button1 {
+  
+  text-align : center;
+  margin-left : 1210px;
+  margin-top : -48px;
+  background-color: black; 
+  color: white; 
+  border: 2px solid white;
+  padding : 10px;
+  width : 100px;
+  border-radius : 2px;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+.enhaut {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.slidez
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color : black;
+    color : white;
+}
+
+
+.desc
+{
+   font-family: Georgia,serif;
+   color : white;
+}
+
+.inback
+{
+    margin-left: 0px;
+    margin-top : 0px;
+    width : 1000px;
+}
+
+.menu
+{
+    margin-left: 0px;
+    margin-top : 0px;
+    width: 200px;
+    height: 500px;
+    background-color: white;
+}
+
+.marques{
+    background-color: white;
+    width : 1840px;
+}
+
+.categoriesv{
+    text-align: center;
+}
+
+
+.energie {
+    margin-left: 100px;
+}
+
+.menu-car
+{
+    margin-left: 200px;
+    margin-top : -500px;
+    width: 1300px;
+    height: 100px;
+    background-color: white;
+}
+
+.soustitre {
+    color : #808080;
+}
+
+.car {
+  
+  text-align : center;
+  margin-left: 20px;
+  margin-top : 0px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid white;
+  padding : 20px;
+  width : 400px;
+  border-radius : 10px;
+}
+
+.car:hover {
+  background-color: #e0e0d1;
+  color: black;
+}
+
+.classc {
+    margin-left: -0px;
+    opacity: 1;
+}
+
+.cate {
+    margin-left: 10px;
+    font-size : 30px;
+    font-weight : bold;
+}
+
+.configurez {
+    width: 300px;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+
+.enhaut {
+    color: black;
+    background-color: white;
+}
+
+.config1 {
+    width: 400px;
+}
+
+.config2 {
+    color: white;
+    background-color: black;
+    width:400px;
+}
+
+.car1 {
+  
+  text-align : center;
+  margin-left: 450px;
+  margin-top : -380px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid white;
+  padding : 20px;
+  width : 400px;
+  border-radius : 10px;
+}
+
+.car1:hover {
+  background-color: #e0e0d1;
+  color: black;
+}
+
+.car2 {
+  
+  text-align : center;
+  margin-left: 880px;
+  margin-top : -380px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid white;
+  padding : 20px;
+  width : 400px;
+  border-radius : 10px;
+}
+
+.car2:hover {
+  background-color: #e0e0d1;
+  color: black;
+}
+
+.car3 {
+  
+  text-align : center;
+  margin-left: 20px;
+  margin-top : 0px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid white;
+  padding : 20px;
+  width : 400px;
+  border-radius : 10px;
+}
+
+.car3:hover {
+  background-color: #e0e0d1;
+  color: black;
+}
+
+.car4 {
+  
+  text-align : center;
+  margin-left: 450px;
+  margin-top : -380px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid white;
+  padding : 20px;
+  width : 400px;
+  border-radius : 10px;
+}
+
+.car4:hover {
+  background-color: #e0e0d1;
+  color: black;
+}
+
+.car5 {
+  
+  text-align : center;
+  margin-left: 20px;
+  margin-top : 0px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid white;
+  padding : 20px;
+  width : 400px;
+  border-radius : 10px;
+}
+
+.car5:hover {
+  background-color: #e0e0d1;
+  color: black;
+}
+
+.car6 {
+  
+  text-align : center;
+  margin-left: 450px;
+  margin-top : -380px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid white;
+  padding : 20px;
+  width : 400px;
+  border-radius : 10px;
+}
+
+.car6:hover {
+  background-color: #e0e0d1;
+  color: black;
+}
+
+.car7 {
+  
+  text-align : center;
+  margin-left: 880px;
+  margin-top : -380px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid white;
+  padding : 20px;
+  width : 400px;
+  border-radius : 10px;
+}
+
+.car7:hover {
+  background-color: #e0e0d1;
+  color: black;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.classeC{
+  background-color: black;
+}
+
+footer{
+    margin-top: 1400px;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.boutonsBas {
+    margin-left: 700px;
+}
+
+.tableaudesc {
+  margin-top:850px;
+  margin-left:-300px;
+}
