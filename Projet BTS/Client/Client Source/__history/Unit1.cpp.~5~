@@ -1,0 +1,35 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::B_ConnecterClick(TObject *Sender)
+{
+	ClientSocket1->Address = "127.0.0.1";
+	ClientSocket1->Port = 2000;
+	ClientSocket1->Open();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Timer1Timer(TObject *Sender)
+{
+	//connexion
+        if (ClientSocket1->Active == true)
+        {
+			ShapeEtat->Brush->Color = clGreen ;
+		}
+		else  Shape_Etat->Brush->Color = clRed ;
+}
+//---------------------------------------------------------------------------
+
