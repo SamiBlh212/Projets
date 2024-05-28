@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/26 14:12:28.000.953,=C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2021/08/26 14:12:29.000.031,=C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2021/12/19 20:53:42.000.549,=C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2021/12/19 20:53:42.000.464,=C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2022/01/26 09:14:50.000.895,=C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2022/01/26 09:14:50.000.811,=C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2022/01/26 09:24:34.000.929,C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Unit1.cpp=F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\Unit1.cpp</Transaction>
+    <Transaction>2022/01/26 09:24:34.000.929,C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Unit1.dfm=F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\Unit1.dfm</Transaction>
+    <Transaction>2022/01/26 09:24:34.000.929,C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Unit1.h=F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\Unit1.h</Transaction>
+    <Transaction>2022/01/26 09:24:38.000.119,C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Project1PCH1.h=F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\Project1PCH1.h</Transaction>
+    <Transaction>2022/01/26 09:24:41.000.823,C:\Users\remi_admin\Documents\Embarcadero\Studio\Projets\Project1.cbproj=F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\Project1.cbproj</Transaction>
+    <Transaction>2022/01/26 09:25:02.000.693,F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\Project1.cbproj=F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\KawaClient.cbproj</Transaction>
+    <Transaction>2022/01/26 09:25:02.000.073,F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\Project1PCH1.h=F:\Bts_2021_2022\I1\TP_Kawa\Kawa_Client\VActuelle\KawaClientPCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>

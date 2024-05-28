@@ -1,0 +1,60 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::B_ConnecterClick(TObject *Sender)
+{
+	ClientSocket1->Address = E_Adresse->Text;
+	ClientSocket1->Port = E_Port->Text.ToInt();
+	ClientSocket1->Open();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Timer1Timer(TObject *Sender)
+{
+	//connexion
+        if (ClientSocket1->Active == true)
+        {
+			Shape_Etat->Brush->Color = clGreen ;
+		}
+		else  Shape_Etat->Brush->Color = clRed ;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::B_DeconnecterClick(TObject *Sender)
+{
+    ClientSocket1->Close();
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::SpeedButton2Click(TObject *Sender)
+{
+    AnsiString trame = Edit1->Text;
+	/*
+	if (CB_SocC_Return->Checked == true)
+		trame = trame + "\n";
+		*/
+	ClientSocket1->Socket->SendText(trame);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::ClientSocket1Read(TObject *Sender, TCustomWinSocket *Socket)
+
+{
+	Memo1->Text = ClientSocket1->Socket->ReceiveText();
+}
+//---------------------------------------------------------------------------
+
